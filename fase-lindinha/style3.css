@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body{
+  background-image: url("./floresta\ abertura1003.jpg");
+  background-repeat: repeat-x repeat-y;  
+  overflow:hidden;
+}
+
+p {
+    font-family:'Press Start 2P', cursive;
+    text-shadow: 2px 2px black;
+    line-height: 1.5; 
+    font-size: 90%;
+    color: white; 
+}
+
+.box-Linda{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 160px 70px 0 70px;
+    padding: 10px;
+    border: double 5px transparent;
+    border-image: linear-gradient(rgb(0, 255, 34), rgb(0, 255, 213)) 1;
+}
+
+img {
+    width: 100px;
+    height: 120px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px rgb(0, 255, 34) ;
+}
+
+img:hover{
+    box-shadow:2px 2px 10px purple;
+}
+
+.box-Linda2 {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 70px 0 70px;
+    padding: 10px;
+    border: double 5px transparent;
+    border-image: linear-gradient(rgb(0, 255, 34), rgb(0, 255, 213)) 1;
+}
